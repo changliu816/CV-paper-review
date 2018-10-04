@@ -1,6 +1,9 @@
 # CV-paper-review
 
 # Detection
+* An Analysis of Scale Invariance in Object Detection – SNIP
+* Single-Shot Refinement Neural Network for Object Detection
+* Cascade R-CNN: Delving into High Quality Object Detection
 
 # Attention
 * attention is all you need  [[paper](https://arxiv.org/pdf/1711.07971.pdf "悬停显示")] [[Comment](https://zhuanlan.zhihu.com/p/34781297)]
