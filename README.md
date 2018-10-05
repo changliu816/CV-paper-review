@@ -1,6 +1,6 @@
 # CV-paper-review
-# Unclassified
-
+# General
+* Group Normalization  [[paper](https://arxiv.org/abs/1803.08494 "悬停显示")] [[Comment](https://zhuanlan.zhihu.com/p/35005794)]
 
 
 # Detection
