@@ -15,6 +15,8 @@
 * Wen Y, Zhang K, Li Z, et al. A discriminative feature learning approach for deep face recognition [C]// ECCV, 2016.
 > 为每个类别学习一个中心，并将每个类别的所有特征向量拉向对应类别中心，联合Softmax一起使用
 
+× Jiankang Deng, Jia Guo, Stefanos Zafeiriou. ArcFace: Additive Angular Margin Loss for Deep Face Recognition [J]. arXiv:1801.07698. (Submitted to IJCV)
+
 *特征归一化的重要性
 > 从最新方法来看，权值W和特征f(或x)归一化已经成为了标配，而且都给归一化特征乘以尺度因子s进行放大，目前主流都采用固定尺度因子s的方法(看来自适应训练没那么重要)；
 > 权值和特征归一化使得CNN更加集中在优化夹角上，得到的深度人脸特征更加分离；
