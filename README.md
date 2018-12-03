@@ -24,6 +24,8 @@
 > 特征归一化后，人脸识别计算特征向量相似度，L2距离和cos距离意义等价，计算量也相同，我们再也不用纠结到底用L2距离还会用cos距离：
 
 
+large magin是显式的类内夹角约束，目标是让同一类的所有特征向量都拉向该类别的权值向量。
+
 # Detection
 * An Analysis of Scale Invariance in Object Detection – SNIP
 * Single-Shot Refinement Neural Network for Object Detection
