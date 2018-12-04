@@ -6,8 +6,9 @@ deformable network
 
 # Face recognition
 * Schroff F, Kalenichenko D, Philbin J. Facenet: A unified embedding for face recognition and clustering,CVPR, 2015
->Hightlight: Triple Loss
-> dd
+>Hightlight: Triple Loss:  embeed inmage into euclidean space, ; 
+vv
+
 
 * Liu W, Wen Y, Yu Z, et al. Large-Margin Softmax Loss for Convolutional Neural Networks [C]// ICML, 2016.
 > Large-Margin Softmax Loss,是large margin系列的开创算法，首先联合FC + Softmax + Cross-entropy重新并给出了Softmax loss的表达式. 加强分类条件，强制让对应类别的W和x夹角增加到原来的m倍
