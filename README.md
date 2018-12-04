@@ -1,6 +1,8 @@
 # CV-paper-review
 # General
 * Group Normalization  [[paper](https://arxiv.org/abs/1803.08494 "悬停显示")] [[Comment](https://zhuanlan.zhihu.com/p/35005794)]
+shuffle net
+deformable network
 
 # Face recognition
 * Schroff F, Kalenichenko D, Philbin J. Facenet: A unified embedding for face recognition and clustering,CVPR, 2015
