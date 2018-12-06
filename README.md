@@ -3,8 +3,11 @@
 * Group Normalization  [[paper](https://arxiv.org/abs/1803.08494 "悬停显示")] [[Comment](https://zhuanlan.zhihu.com/p/35005794)]
 shuffle net
 deformable network
-Spatial Transformer Networks [[Comment](https://zhuanlan.zhihu.com/p/41738716)] 
-> Localisation net 对feature map的输入输出，做出位置映射，从而得到 Grid generator. 然后，需要给feagure map输出的位置上赋值，采取bilinear interpolation, 让输出的feature map的score等于对应输入位置周围附近的score. 创建一个 position -> score的映射。这样，反向传导时可行 （dV/dU, dV/d theta= dV/dx dx/d theta）
+
+*Spatial Transformer Networks [[Comment](https://zhuanlan.zhihu.com/p/41738716)] 
+  *Localisation net 对feature map的输入输出，做出位置映射，从而得到 Grid generator. 然后，需要给feagure map输出的位置上赋值，采取bilinear interpolation, 让输出的feature map的score等于对应输入位置周围附近的score. 创建一个 position -> score的映射。这样，反向传导时可行 （dV/dU, dV/d theta= dV/dx dx/d theta）
+  *This differentiable module can be inserted into existing convolutional architectures, giving neural networks the ability to actively spatially transform feature maps, conditional on the feature map itself, without any extra training supervision or modification to the optimisation process.
+
 # Detection
 * An Analysis of Scale Invariance in Object Detection – SNIP
 * Single-Shot Refinement Neural Network for Object Detection
