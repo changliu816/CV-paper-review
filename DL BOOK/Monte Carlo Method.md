@@ -17,3 +17,9 @@
 * THis approximatio is justifed by 1) **the law of large numbers**(if samples are i.i.d, then the avearge converges almost surely to the expected value) 2) **The central limit therem**(the distribution of the average converges to a normal distribution with mean=s, and variance = var/n)
 
 ## IMportance Sampling
+* Don't know which part is probability p(x), which part is f(x). Fortunately, the form of the optimal choice q∗ can be derived easily. The optimal q∗ corresponds to what is called **optimal importance sampling**.
+
+
+* Any choice of sampling distribution q is valid (in the sense of yielding thecorrect expected value), and q∗ is the optimal one (in the sense of yielding minimumvariance). Sampling from q∗ is usually infeasible, but other choices of q can be feasible while still reducing the variance somewhat.
+
+* Biased importance sampling
