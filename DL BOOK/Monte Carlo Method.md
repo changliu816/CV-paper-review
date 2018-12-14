@@ -44,6 +44,10 @@
 * Another diﬃculty is that we do not know in advance how many steps the Markov chain must run before reaching its equilibrium distribution. This length of time is called the **mixing time**
 
 ## Gibbs Sampling
+* After knowing how to draw samples from distribution q(x) by repeately updating x, how to choose T to ensure q(x) is useful? we want the q(x) for the Markov chain to be p_model(x). To obtain the desired q(x), we must choose an appropriate T (x'| x)
+
+* selecting one variable xi and sampling it from p model conditioned on its neighbors in the undirected graphG deﬁning the structure of the energy-based model
+
 
 
 
