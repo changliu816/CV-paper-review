@@ -23,3 +23,27 @@
 * Any choice of sampling distribution q is valid (in the sense of yielding thecorrect expected value), and q∗ is the optimal one (in the sense of yielding minimumvariance). Sampling from q∗ is usually infeasible, but other choices of q can be feasible while still reducing the variance somewhat.
 
 * Biased importance sampling
+## Markov Chain Monte Carlo Methods
+*  sampling from an **energy-based model** to make sure no zero probability assigned to any state
+* Formally, a Markov chain is deﬁned by a random state x and a transition distribution T(x'| x) specifying the probability that a random update will go to state x' if it starts in state x. Running the Markov chain means repeatedly updating the state x to a value x' sampled from T (x'| x)
+
+![](https://github.com/changliu816/CV-paper-review/blob/master/photo/Selection_001.png)
+
+* If there is a nonzero probability of transitioning from any state x to any other state x' for some power t, then **the Perron-Frobenius theorem** guarantees that **the largest eigenvalue is real and equal to 1**. Over time, we can see that all the eigenvalues are exponentiated. This process causes **all the eigenvalues that are not equal to 1 to decay to zero**. A is guaranteed to have only one eigenvector with eigenvalue 1. The process thus converges to a **stationary distribution**,sometimes also called the equilibrium distribution.
+
+![](https://github.com/changliu816/CV-paper-review/blob/master/photo/Selection_002.png)
+
+![](https://github.com/changliu816/CV-paper-review/blob/master/photo/Selection_003.png)
+
+![](https://github.com/changliu816/CV-paper-review/blob/master/photo/Selection_004.png)
+
+* To be a stationary point,**v must be an eigenvector with corresponding eigenvalue 1**. If we have chosen T correctly, then **the stationary distribution q will be equal to the distribution p** we wish to sample from
+
+### Drawbacks
+* They are identically distributed, but any two successive samples will be highly correlated with each other. 
+* Another diﬃculty is that we do not know in advance how many steps the Markov chain must run before reaching its equilibrium distribution. This length of time is called the **mixing time**
+
+## Gibbs Sampling
+
+
+
