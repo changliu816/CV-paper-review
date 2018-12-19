@@ -41,3 +41,8 @@ We can think of D_KL (p|q) as preferring to place high probability everywhere th
 WGAN-GP的贡献在于，它用正则化的形式表达了对判别器 D 的约束，也为后来GAN的正则化模型做了启示。此外WGAN-GP基本从理论和实验上解决了梯度消失的问题，并且具有强大的稳定性，几乎不需要调参，即在大多数网络框架下训练成功率极高。
 
 ## LSGAN
+
+# Cycle_GAN (unpaired img2img translation)
+* insert cycle transitivity to adv loss. Good for color, texture changes, not for geomoetric changes.
+
+# Big GAN
