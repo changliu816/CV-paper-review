@@ -6,6 +6,13 @@
 2. Unsupervised learning feels more **human** (From cognitive perspective)
 3. Want rapid **generalisation to new tasks** and situations
 
+## Category
+1) Clustering
+2) Density estimation
+3) Dimension reduction
+4) Sparce coding/ Auto-encoder
+
+
 ### Method 1 -  Density Modelling
 * Do maximum likelihood on the data to learn the True distribution
 * Generative model of data
