@@ -10,6 +10,7 @@ mantic image features that can be useful for other vision tasks.
 ### Images
 1) [Context](#Context)
 2) [Multi-task](#Multi-task)
+3) [Image-inpaiting](#Image-inpaiting)
 4) [Colorization](#Colorization)
 ### Video
 1) Learning from Temporal Ordering
@@ -47,7 +48,7 @@ in general, mid-layers in the network may not train as well
 as the early and later layers.
 
 
-### Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles
+#### Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles
 * solve Jigsaw puzzles as a pretext task, which requires no manual labeling, and then later repurposed to solve object classification and detection
 
 ### Multi-task
@@ -66,6 +67,17 @@ fied representation.
 
 3) Drawbacks: Not learning tasks simultaneously, the tasks are too different. Pre-preocessing on input data and design of output objective function is needed. 
 
-### Cross-Domain Self-supervised Multi-task Feature Learning using Synthetic Imagery
+#### Cross-Domain Self-supervised Multi-task Feature Learning using Synthetic Imagery
 *  Given an input synthetic RGB image, our network simultaneously predicts its surface normal, depth, and instance contour, while also minimizing the feature space domain differences between real and synthetic data. 
 * Drawbacks: Result no so good or not prominent;  Synthetic image also require human label but with cheap expense. It's hard to categorify into self-supervised framework. 
+
+### Image-inpaiting
+-----
+#### Self-Supervised Feature Learning by Learning to Spot Artifacts
+1) a novel feature learning framework based on detecting images with artifacts, which does not require human annotation; 
+
+2) a method to create images with non-trivial artifacts; * To generate artifacts we first train an autoencoder to reproduce images. * Then, we randomly drop entries from theTo generate artifacts we first train an autoencoder to reproduce images. Then, we randomly drop entries from the encoded feature (at the bottleneck) so that some information about the input image is lost. We then add a repair neural network to the decoder to help it render a realistic image. The repair network inpaints the feature representations at every layer of the decoder, but its limited capacity does not allow it to fully recover the missing information.
+
+3) Hightlight: reproduce damage image through AE, and using Adversarial Learning to distinguish real or fake, and transfer representation in disciminator for other evaluation tasks.
+
+4) Drawbacks: artifact creation need to be further considerated rather mask out some region in encoder feature space.
