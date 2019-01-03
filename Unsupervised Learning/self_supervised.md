@@ -9,9 +9,8 @@ mantic image features that can be useful for other vision tasks.
 ## Category
 ### Images
 1) [Context](#Context)
-2) Jigsaw puzzle
-3) impaining 
-4) Colorization
+2) [Multi-task](#Multi-task)
+4) [Colorization](#Colorization)
 ### Video
 1) Learning from Temporal Ordering
 2) Learning and Using the Arrow of Time
@@ -50,8 +49,19 @@ as the early and later layers.
 
 image completion, image colorization, motion segmentation, motion frame ordering, object counting and a multi-task ensemble of many models.
 
-----
-## Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles
+### Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles
 * solve Jigsaw puzzles as a pretext task, which requires no manual labeling, and then later repurposed to solve object classification and detection
 
-
+### Multi-task
+-----------
+#### Multi-task Self-Supervised Visual Learning
+* 1) First, we provide an apples-to-
+apples comparison of four different self-supervised tasks
+using the very deep ResNet-101 architecture. We then com-
+bine tasks to jointly train a network. 2) We also explore **lasso
+regularization** to encourage the network to factorize the
+information in its representation, and 3) methods for **“har-
+monizing” network inputs** in order to learn a more uni-
+fied representation.
+2) Hightlight: Multi-task scheme; Design a mechanism that allows network to choose which layers are fed into each task
+![](https://github.com/changliu816/CV-paper-review/blob/master/photo/Screenshot%20from%202019-01-03%2012-45-00.png)
