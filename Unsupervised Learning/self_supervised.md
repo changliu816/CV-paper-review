@@ -12,6 +12,7 @@ mantic image features that can be useful for other vision tasks.
 2) [Multi-task](#Multi-task)
 3) [Image-inpaiting](#Image-inpaiting)
 4) [Colorization](#Colorization)
+5) [Knowledge-distillation](#Knowledge-distillation)
 ### Video
 1) Learning from Temporal Ordering
 2) Learning and Using the Arrow of Time
@@ -81,3 +82,10 @@ fied representation.
 3) Hightlight: reproduce damage image through AE, and using Adversarial Learning to distinguish real or fake, and transfer representation in disciminator for other evaluation tasks.
 
 4) Drawbacks: artifact creation need to be further considerated rather mask out some region in encoder feature space.
+
+### Knowledge-distillation
+-----
+#### Boosting Self-Supervised Learning via Knowledge Transfer
+This allows to improve SSL methods by exploring: 1) designs of architectures that may be more suitable for learning a specific pretext task; 2) data formats and types different from the target domain; 3) more challenging pretext tasks.
+
+Hightlight: Knowledge-distillation via clutering from complex model to simple target model(e.g AlexNet) 
