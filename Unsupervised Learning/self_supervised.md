@@ -47,8 +47,6 @@ in general, mid-layers in the network may not train as well
 as the early and later layers.
 
 
-image completion, image colorization, motion segmentation, motion frame ordering, object counting and a multi-task ensemble of many models.
-
 ### Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles
 * solve Jigsaw puzzles as a pretext task, which requires no manual labeling, and then later repurposed to solve object classification and detection
 
