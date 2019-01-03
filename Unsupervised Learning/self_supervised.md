@@ -63,3 +63,9 @@ monizing” network inputs** in order to learn a more uni-
 fied representation.
 2) Hightlight: Multi-task scheme; Design a mechanism that allows network to choose which layers are fed into each task
 ![](https://github.com/changliu816/CV-paper-review/blob/master/photo/Screenshot%20from%202019-01-03%2012-45-00.png)
+
+3) Drawbacks: Not learning tasks simultaneously, the tasks are too different. Pre-preocessing on input data and design of output objective function is needed. 
+
+### Cross-Domain Self-supervised Multi-task Feature Learning using Synthetic Imagery
+*  Given an input synthetic RGB image, our network simultaneously predicts its surface normal, depth, and instance contour, while also minimizing the feature space domain differences between real and synthetic data. 
+* Drawbacks: Result no so good or not prominent;  Synthetic image also require human label but with cheap expense. It's hard to categorify into self-supervised framework. 
