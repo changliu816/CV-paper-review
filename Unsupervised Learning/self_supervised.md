@@ -3,6 +3,9 @@ a prominent paradigm is the so-called self-supervised learning that defines an a
 using only the visual information present on the images or videos, in order to provide a surrogate
 supervision signal for feature learning.
 
+The rationale behind such self-supervised tasks is that solving them will force the ConvNet to learn se-
+mantic image features that can be useful for other vision tasks.
+
 ## Category
 ### Images
 1) Context
