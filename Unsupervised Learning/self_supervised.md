@@ -8,7 +8,7 @@ mantic image features that can be useful for other vision tasks.
 
 ## Category
 ### Images
-* [ Context ](# Context )
+1) [Context](#Context)
 2) Jigsaw puzzle
 3) impaining 
 4) Colorization
@@ -23,6 +23,7 @@ mantic image features that can be useful for other vision tasks.
 3) Transitive invariance
 -----
 ### Context
+-----------
 #### pros: 
 Patch based methods have the advantage of being easy to
 understand, network architecture agnostic, and frequently
