@@ -38,13 +38,22 @@ E z ∼ Q [ log P ( X | z )]
 * Because we are already doing stochastic gradient descent over different values of X sampled from a dataset D
 4) Therefore, we can sample a single value of X and a single value of z from the distribution Q ( z | X ) , and compute the gradient of:  log P ( X | z ) − D [ Q ( z | X ) || P ( z )] THen average thie gradient of this function over arbitrarily many
 samples of X and z, and the result converges to the gradient of Equation: E X ∼ D [ E z ∼ Q [ log P ( X | z )] − D [ Q ( z | X ) || P ( z )]]
-5) reparameterization trick: Because we sample z from Q(z|X) which has parameters that we need to learn in Neural Nework, and then need back-prop. However, Q is non-continuous operation and has no gradient. reparameterization trick replace the distribution that depend on our model parameters with a given function. 
+5) reparameterization trick: Because we sample z from Q(z|X) which has parameters that we need to learn in Neural Nework, and then need back-prop. However, Q is non-continuous operatioConditional Variational Autoencodersn and has no gradient. reparameterization trick replace the distribution that depend on our model parameters with a given function. 
 
 6) Right hand side is a lower bound to P(X). 
 
 ## Interpreting Objective
-First, we ask how much error is introduced by optimizing D[ Q ( z | X ) ||P ( z | X )] in addition to log P ( X ) . Second, we describe the VAE framework—especially the r.h.s. of Equation 5—in terms of information theory, linking it to other approaches based on Minimum Description Length.
-Finally, we investigate whether VAEs have “regularization parameters” analogous to the sparsity penalty in sparse autoencoders.
-### Error from D[ Q ( z | X ) ||P ( z | X )]
+1) we ask how much error is introduced by optimizing D[ Q ( z | X ) ||P ( z | X )] in addition to log P ( X ) . 
+2) we describe the VAE framework—especially the r.h.s. of Equation 5—in terms of information theory, linking it to other approaches based on Minimum Description Length.
+* We first use some bits to construct z. Recall that a KL-divergence is measured in bits (or nats). We measure the bits required to construct z using a D[ Q ( z | X )|| P ( z )] because under our model, we assume
+that any z which is sampled from P ( z ) = N ( z | 0, I ) can contain no informa-
+tion about X. Hence, we need to measure the amount of extra information
+that we get about X when z comes from Q ( z | X ) instead of from P ( z )
+* In the second step, P ( X | z ) measures the amount of information required to reconstruct X from
+z under an ideal encoding. Hence, the total number of bits (log P ( X ) ) is the
+sum of these two steps, minus a penalty we pay for Q being a sub-optimal
+encoding ( D[ P ( z | X )|| Q ( z | X )] ).
 
-
+3) Finally, we investigate whether VAEs have “regularization parameters” analogous to the sparsity penalty in sparse autoencoders.
+------
+# Conditional Variational Autoencoders
