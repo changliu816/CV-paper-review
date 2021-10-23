@@ -80,9 +80,6 @@
 
 ## 0. General
 [Towards Learning Spatially Discriminative Feature Representations, ICCV2021](https://arxiv.org/pdf/2109.01359.pdf)<br>:open_mouth:oral:star:[code](xxx)
-
-* Motivation:  Intuitively, if we constrain CAAMs (class-agnostic acitivation maps) closer to CAMs (class acitivation maps) of target categories,
-features of the target categories will be expressed well and those of non-target categories will be suppressed simultaneously. 
 * propose CAM-loss to push CAAM and CAM to be close by l1 distance. 
 * **Comments**: 1.CAAMs代表所有objects出现的地方的attention, CAM代表某个特定object的attention. 一般来说，非target objects会干扰分类，所以让CAAM去拉近CAM可以避免这个问题。2. 可以拓展到Knowledge distillation. 用teacher的CAM 去guide student的CAAMs.
 
