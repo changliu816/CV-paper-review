@@ -80,4 +80,10 @@
 
 ## 0. General
 [Towards Learning Spatially Discriminative Feature Representations, ICCV2021](https://arxiv.org/pdf/2109.01359.pdf)<br>:open_mouth:oral:star:[code](xxx)
-ASDFASDF
+
+* Motivation:  Intuitively, if
+we constrain CAAMs (class-agnostic acitivation maps) closer to CAMs of target categories,
+features of the target categories will be expressed well and
+those of non-target categories will be suppressed simultaneously. This effectively enforces intra-class compactness
+and inter-class separability.
+* propose a novel loss function CAM-loss from the perspective of spatial information. Complemantary to all CNN task on classification, transfer learning, knowledge distillation. 
