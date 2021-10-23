@@ -15,14 +15,21 @@
 <a name="1"/>
 
 ## 1.Domain Adaptation
+[Dynamic Transfer for Multi-Source Domain Adaptation, CVPR2021](https://arxiv.org/pdf/2103.10583.pdf) 
+
+
 [Gradient Distribution Alignment Certificates Better Adversarial Domain
 Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Gradient_Distribution_Alignment_Certificates_Better_Adversarial_Domain_Adaptation_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
 * Improvement for MCD third step: Fix two classifier and update G by minimize divegence between prob output of two classifiers.
-* The new divergence loss is: gradience discrepancy: Cosine-distance(gs,gt) where gs is the grad. of L_ce
+* The new divergence loss is: gradience discrepancy: Cosine-distance (gs,gt) where gs is the grad. of L_ce and gt is the weighted pseudo label loss. 
+* New way to select PL: calculate target proto by weighted features where weights are from the softmax outputs. 
 
 [Adaptive Adversarial Network for Source-free Domain Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Xia_Adaptive_Adversarial_Network_for_Source-Free_Domain_Adaptation_ICCV_2021_paper.pdf) 
 
-* [STEM: An approach to Multi-source Domain Adaptation with Guarantees, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Nguyen_STEM_An_Approach_to_Multi-Source_Domain_Adaptation_With_Guarantees_ICCV_2021_paper.pdf) 
+[STEM: An approach to Multi-source Domain Adaptation with Guarantees, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Nguyen_STEM_An_Approach_to_Multi-Source_Domain_Adaptation_With_Guarantees_ICCV_2021_paper.pdf) 
+
+
+
 
 
 
@@ -34,7 +41,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="3"/>
 
 ## 3.Image Self-supervised Learning
--[Self-supervised Geometric Perception, CVPR2021](https://arxiv.org/pdf/2103.03114.pdf) [code](https://github.com/theNded/SGP)
+-[Self-supervised Motion Learning from Static Images, CVPR2021](https://arxiv.org/pdf/2104.00240.pdf)
 * ConvNets trained on ImageNet are biased towards textures instead of shapes. The moments (mean, variance) contains rich structure information and should not be discarded by normalization. 
 * Swap the shape (or style) information of two images by swapping the moments after 1st layers. 
 * Feature-level augmentation. 类似 cross-norm那篇paper.
