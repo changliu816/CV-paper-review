@@ -7,29 +7,73 @@
 |[9.Few-shots/Meta Learning](#9)|[10.Metric Learning](#10)|[11.Adversarial Learning](#11)|[12.Image2Image Translation](#12)|
 |[13.Transformer](#13)|[0.General](#0)|
 
+<a name="1"/>
 
 ## 1.Domain Adaptation
   * [SOE-Net: A Self-Attention and Orientation Encoding Network for Point Cloud Based Place Recognition](https://openaccess.thecvf.com/content/CVPR2021/papers/Xia_SOE-Net_A_Self-Attention_and_Orientation_Encoding_Network_for_Point_Cloud_CVPR_2021_paper.pdf)<br>:open_mouth:oral:star:[code](https://github.com/Yan-Xia/SOE-Net)
 
 
-## 74.Place Recognition(位置识别)
-  * [SOE-Net: A Self-Attention and Orientation Encoding Network for Point Cloud Based Place Recognition](https://openaccess.thecvf.com/content/CVPR2021/papers/Xia_SOE-Net_A_Self-Attention_and_Orientation_Encoding_Network_for_Point_Cloud_CVPR_2021_paper.pdf)<br>:open_mouth:oral:star:[code](https://github.com/Yan-Xia/SOE-Net)
+<a name="2"/>
 
-<a name="73"/>
+## 2.Domain Generalization
 
-## 73.Object Re-identification(物体重识别)
-  * [Refining Pseudo Labels with Clustering Consensus over Generations for Unsupervised Object Re-identification](https://arxiv.org/abs/2106.06133)
 
-<a name="72"/>
+<a name="3"/>
 
-## 72.Gaze Estimation(视线估计)
-* [Weakly-Supervised Physically Unconstrained Gaze Estimation](https://arxiv.org/abs/2105.09803)<br>:open_mouth:oral:star:[code](https://github.com/NVlabs/weakly-supervised-gaze)
-* Gaze 目标检测
-  * [Dual Attention Guided Gaze Target Detection in the Wild](https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Dual_Attention_Guided_Gaze_Target_Detection_in_the_Wild_CVPR_2021_paper.pdf)<br>:star:[code](https://github.com/Crystal2333/DAM)
+## 3.Image Self-supervised Learning
+
+<a name="4"/>
+
+## 4.Video Self-supervised Learning
+
+
+<a name="5"/>
+
+## 5.Semi-supervised Learning
+
+
+<a name="6"/>
+
+## 6.Long-tailed Recognition
+
+<a name="7"/>
+
+## 7.Noisy-label learning
+
+
  
+ <a name="8"/>
+
+## 8.Data Augmentation
+
+
+<a name="9"/>
+
+## 9.Few-shots/Meta Learning
+
+
+
  <a name="10"/>
  
  ## 10.Metric Learning
-  * [Refining Pseudo Labels with Clustering Consensus over Generations for Unsupervised Object Re-identification](https://arxiv.org/abs/2106.06133)
 
+
+<a name="11"/>
+
+## 11.Adversarial Learning
+
+<a name="12"/>
+
+## 12.Image2Image Translation
+
+
+<a name="13"/>
+
+## 13.Transformer 
+
+
+
+<a name="0/>
+
+## 0. General
 
