@@ -28,6 +28,7 @@
   * [Dual Attention Guided Gaze Target Detection in the Wild](https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Dual_Attention_Guided_Gaze_Target_Detection_in_the_Wild_CVPR_2021_paper.pdf)<br>:star:[code](https://github.com/Crystal2333/DAM)
  
  <a name="10"/>
+ 
  ## 10.Metric Learning
   * [Refining Pseudo Labels with Clustering Consensus over Generations for Unsupervised Object Re-identification](https://arxiv.org/abs/2106.06133)
 
