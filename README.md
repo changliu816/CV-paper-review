@@ -1,7 +1,7 @@
 # Computer vision/ Deep Learning
 
 ## Category
-[Domain Adaptation](#Domain Adaptation)
+1) [Domain Adaptation](#Domain Adaptation)
 [Domain Generalization](#Domain Generalization)
 [Image Self-supervised Learning](#Image Self-supervised Learning)
 [Video Self-supervised Learning](#Video Self-supervised Learning)
