@@ -24,6 +24,11 @@
 <a name="3"/>
 
 ## 3.Image Self-supervised Learning
+-[Self-supervised Geometric Perception, CVPR2021](https://arxiv.org/pdf/2103.03114.pdf) [code](https://github.com/theNded/SGP)
+* ConvNets trained on ImageNet are biased towards textures instead of shapes. The moments (mean, variance) contains rich structure information and should not be discarded by normalization. 
+* Swap the shape (or style) information of two images by swapping the moments after 1st layers. 
+* Feature-level augmentation. 类似 cross-norm那篇paper.
+
 
 <a name="4"/>
 
@@ -48,6 +53,15 @@
  <a name="8"/>
 
 ## 8.Data Augmentation
+-[On Feature Normalization and Data Augmentation, CVPR2021](https://arxiv.org/pdf/2002.11102.pdf) [code](https://github.com/Boyiliee/MoEx.)
+* ConvNets trained on ImageNet are biased towards textures instead of shapes. The moments (mean, variance) contains rich structure information and should not be discarded by normalization. 
+* Swap the shape (or style) information of two images by swapping the moments after 1st layers. 
+* Feature-level augmentation. 类似 cross-norm那篇paper.
+
+-[SuperMix: Supervising the Mixing Data Augmentation, CVPR2021](https://arxiv.org/pdf/2002.11102.pdf) [code](https://github.com/Boyiliee/MoEx.)
+* ConvNets trained on ImageNet are biased towards textures instead of shapes. The moments (mean, variance) contains rich structure information and should not be discarded by normalization. 
+* Swap the shape (or style) information of two images by swapping the moments after 1st layers. 
+* Feature-level augmentation
 
 
 <a name="9"/>
