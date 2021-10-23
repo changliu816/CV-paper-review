@@ -15,13 +15,13 @@
 <a name="1"/>
 
 ## 1.Domain Adaptation
-* [Gradient Distribution Alignment Certificates Better Adversarial Domain
+[Gradient Distribution Alignment Certificates Better Adversarial Domain
 Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Gradient_Distribution_Alignment_Certificates_Better_Adversarial_Domain_Adaptation_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
 
-> -Improvement for MCD third step: Fix two classifier and update G by minimize divegence between prob output of two classifiers.
--The new divergence loss is: gradience discrepancy: Cosine-distance(gs,gt) where gs is the grad. of L_ce
+*Improvement for MCD third step: Fix two classifier and update G by minimize divegence between prob output of two classifiers.
+*The new divergence loss is: gradience discrepancy: Cosine-distance(gs,gt) where gs is the grad. of L_ce
 
-* [Adaptive Adversarial Network for Source-free Domain Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Xia_Adaptive_Adversarial_Network_for_Source-Free_Domain_Adaptation_ICCV_2021_paper.pdf) 
+[Adaptive Adversarial Network for Source-free Domain Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Xia_Adaptive_Adversarial_Network_for_Source-Free_Domain_Adaptation_ICCV_2021_paper.pdf) 
 
 * [STEM: An approach to Multi-source Domain Adaptation with Guarantees, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Nguyen_STEM_An_Approach_to_Multi-Source_Domain_Adaptation_With_Guarantees_ICCV_2021_paper.pdf) 
 
