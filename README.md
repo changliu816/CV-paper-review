@@ -48,7 +48,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 * Extension for Moco where only single positive key is used. 
 * JCL pushes the num of positives to infinity and minimizes the upper bound of loss. E(log(X))<= log E(X)
 * Key is to estimate the Gaussian distribution of positive keys N(mu, sigma)
-* ** Comments:类似 Semantic Aug，只是loss 从CE 换成了Contrastive Loss. 
+* **Comments**: 类似 Semantic Aug，只是loss 从CE 换成了Contrastive Loss. 
 
 [Contrastive Learning with Adversarial Examples, NIPS2020](https://arxiv.org/pdf/2010.12050.pdf)
 * Extension for Moco where only single positive key is used. 
