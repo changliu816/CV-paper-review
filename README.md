@@ -15,8 +15,6 @@
 <a name="1"/>
 
 ## 1.Domain Adaptation
-[Dynamic Transfer for Multi-Source Domain Adaptation, CVPR2021](https://arxiv.org/pdf/2103.10583.pdf) 
-
 
 [Gradient Distribution Alignment Certificates Better Adversarial Domain
 Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Gradient_Distribution_Alignment_Certificates_Better_Adversarial_Domain_Adaptation_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
@@ -28,6 +26,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 
 [STEM: An approach to Multi-source Domain Adaptation with Guarantees, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Nguyen_STEM_An_Approach_to_Multi-Source_Domain_Adaptation_With_Guarantees_ICCV_2021_paper.pdf) 
 
+[Dynamic Transfer for Multi-Source Domain Adaptation, CVPR2021](https://arxiv.org/pdf/2103.10583.pdf) 
 
 
 
@@ -45,18 +44,15 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 [Self-supervised Motion Learning from Static Images, CVPR2021](https://arxiv.org/pdf/2104.00240.pdf)
 
 [Joint Contrastive Learning with Infinite Possibilities, NIPS2020](https://arxiv.org/pdf/2009.14776.pdf)
-* Extension for Moco where only single positive key is used. 
-* JCL pushes the num of positives to infinity and minimizes the upper bound of loss. E(log(X))<= log E(X)
+* Extension for Moco where only single positive key is used while JCL pushes the num of positives to infinity and minimizes the upper bound of loss. E(log(X))<= log E(X)
 * Key is to estimate the Gaussian distribution of positive keys N(mu, sigma)
 * **Comments**: 类似 Semantic Aug，只是loss 从CE 换成了Contrastive Loss. 
 
-[Contrastive Learning with Adversarial Examples, NIPS2020](https://arxiv.org/pdf/2010.12050.pdf)
-* Extension for Moco where only single positive key is used. 
-* JCL pushes the num of positives to infinity and minimizes the upper bound of loss. E(log(X))<= log E(X)
-* Key is to estimate the Gaussian distribution of positive keys N(mu, sigma)
-* **Comments:类似 Semantic Aug，只是loss 从CE 换成了Contrastive Loss. 
+[Contrastive Learning with Adversarial Examples, NIPS2020](https://arxiv.org/pdf/2010.12050.pdf) [code](https://github.com/chihhuiho/CLAE)
+* 2-steps optimization: 1) Generate positive adv samples by maximizing CTloss. 2) Use Adv samples for CTLoss.
 
-
+[Adversarial Self-Supervised Contrastive Learning, NIPS2020](https://arxiv.org/pdf/2006.07589.pdf) [code](https://github.com/Kim-Minseon/RoCL)
+* **Comments:和上面那篇基本一样，但是citation更高
 
 <a name="4"/>
 
