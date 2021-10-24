@@ -54,7 +54,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="3"/>
 
 ## 3.Image Self-supervised Learning
-* [Mean Shift for Self-Supervised Learning,ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Koohpayegani_Mean_Shift_for_Self-Supervised_Learning_ICCV_2021_paper.pdf)<br>:star:[code](https://github.com/UMBCvision/MSF)
+* [Mean Shift for Self-Supervised Learning,ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Koohpayegani_Mean_Shift_for_Self-Supervised_Learning_ICCV_2021_paper.pdf):star:[[code]](https://github.com/UMBCvision/MSF)
 
 * [A Broad Study on the Transferability of Visual Representations With Contrastive Learning](https://arxiv.org/abs/2103.13517)<br>:star:[code](https://github.com/asrafulashiq/transfer_broad)
 * [With a Little Help From My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548)
@@ -66,7 +66,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 
 * [Switchable K-class Hyperplanes for Noise-Robust Representation Learning, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Switchable_K-Class_Hyperplanes_for_Noise-Robust_Representation_Learning_ICCV_2021_paper.pdf) [code](https://github.com/liubx07/SKH.git)
 
-[Solving Inefficiency of Self-supervised Representation Learning, ICCV2021](https://arxiv.org/pdf/2104.08760.pdf) [code](https://github.com/wanggrun/triplet)
+* [Solving Inefficiency of Self-supervised Representation Learning, ICCV2021](https://arxiv.org/pdf/2104.08760.pdf) [code](https://github.com/wanggrun/triplet)
 
 
 * [Self-supervised Motion Learning from Static Images, CVPR2021](https://arxiv.org/pdf/2104.00240.pdf)
