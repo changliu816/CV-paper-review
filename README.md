@@ -23,7 +23,7 @@
 * [SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation, ICCV2021](https://arxiv.org/abs/2012.11460) 
 
 
-* [Gradient Distribution Alignment Certificates Better Adversarial Domain
+* :star:[Gradient Distribution Alignment Certificates Better Adversarial Domain
 Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Gradient_Distribution_Alignment_Certificates_Better_Adversarial_Domain_Adaptation_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
    * Improvement for MCD third step: Fix two classifier and update G by minimize divegence between prob output of two classifiers.
    * The new divergence loss is: gradience discrepancy: Cosine-distance (gs,gt) where gs is the grad. of L_ce and gt is the weighted pseudo label loss. 
@@ -43,7 +43,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 
 ## 2.Domain Generalization
 * [Confidence Calibration for Domain Generalization under Covariate Shift, ICCV2021](https://arxiv.org/abs/2104.00742) 
-* [Domain Generalization via Gradient Surgery](https://arxiv.org/abs/2108.01621)<br>:star:[code](https://github.com/lucasmansilla/DGvGS)
+* :star:[Domain Generalization via Gradient Surgery](https://arxiv.org/abs/2108.01621)[[code]](https://github.com/lucasmansilla/DGvGS)
   * Motivation: Multi-task learning has gradients conflict issues; This paper hypothesizes that the gradients conflict also exsits in domains.
   * Method: update CNN by harmonizing inter-domain gradients. 判断不同source的gradients的sign是否一致。如果一致，就keep，然后average;如果不一致，可以zero or assign a random value to them. 
   * **Comments**不同domains or tasks可能会有gradients conflict这个角度很有趣。可以拓展到few-shots或者 有很多loss的时候，怎么确保彼此是否confilct.
@@ -54,11 +54,11 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="3"/>
 
 ## 3.Image Self-supervised Learning
-* [Mean Shift for Self-Supervised Learning,ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Koohpayegani_Mean_Shift_for_Self-Supervised_Learning_ICCV_2021_paper.pdf):star:[[code]](https://github.com/UMBCvision/MSF)
+* :star:[Mean Shift for Self-Supervised Learning,ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Koohpayegani_Mean_Shift_for_Self-Supervised_Learning_ICCV_2021_paper.pdf)[[code]](https://github.com/UMBCvision/MSF)
 
 * [A Broad Study on the Transferability of Visual Representations With Contrastive Learning](https://arxiv.org/abs/2103.13517)<br>:star:[code](https://github.com/asrafulashiq/transfer_broad)
 * [With a Little Help From My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548)
-* [On Feature Decorrelation in Self-Supervised Learning, ICCV2021](https://arxiv.org/abs/2105.00470) 
+* :star:[On Feature Decorrelation in Self-Supervised Learning, ICCV2021](https://arxiv.org/abs/2105.00470) 
 
 * [Improving Contrastive Learning by Visualizing Feature Transformation](https://arxiv.org/abs/2108.02982)<br>:open_mouth:oral:star:[code](https://github.com/DTennant/CL-Visualizing-Feature-Transformation)
 
@@ -151,7 +151,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="11"/>
 
 ## 11.Adversarial Learning
-* [TRANSFERABLE PERTURBATIONS OF DEEP FEATURE DISTRIBUTIONS, ICLR2020](https://arxiv.org/pdf/2004.12519.pdf)
+* :star:[TRANSFERABLE PERTURBATIONS OF DEEP FEATURE DISTRIBUTIONS, ICLR2020](https://arxiv.org/pdf/2004.12519.pdf)
   * Motivation:当用混淆class prediction作为white-box model的criterion时，遇到class不一致的blackbox model, adv examples很难transfer
   * Method: 用intermidiate feature 后面跟一个auxillary classifier作为criterion，让adv example混淆它。这样transfer效果更好。加大混淆力度：model误以为是其他class，model prediction原理src class； 生成的adv feature与orgional feature拉远。
  
