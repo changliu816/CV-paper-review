@@ -43,11 +43,13 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 
 ## 2.Domain Generalization
 [Confidence Calibration for Domain Generalization under Covariate Shift, ICCV2021](https://arxiv.org/abs/2104.00742) 
-
+[Domain Generalization via Gradient Surgery](https://arxiv.org/abs/2108.01621)<br>:star:[code](https://github.com/lucasmansilla/DGvGS)
 
 <a name="3"/>
 
 ## 3.Image Self-supervised Learning
+[Mean Shift for Self-Supervised Learning,ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Koohpayegani_Mean_Shift_for_Self-Supervised_Learning_ICCV_2021_paper.pdf)<br>:star:[code](https://github.com/UMBCvision/MSF)
+
 [A Broad Study on the Transferability of Visual Representations With Contrastive Learning](https://arxiv.org/abs/2103.13517)<br>:star:[code](https://github.com/asrafulashiq/transfer_broad)
 [With a Little Help From My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548)
 [On Feature Decorrelation in Self-Supervised Learning, ICCV2021](https://arxiv.org/abs/2105.00470) 
@@ -78,9 +80,14 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 
 ## 4.Video Self-supervised Learning
 [Contrast and Order Representations for Video Self-Supervised Learning, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Hu_Contrast_and_Order_Representations_for_Video_Self-Supervised_Learning_ICCV_2021_paper.pdf)
-[Contrastive Learning of Image Representations With Cross-Video Cycle-Consistency](https://arxiv.org/abs/2105.06463)<br>:house:[project](https://happywu.github.io/cycle_contrast_video/)
-
-
+[Contrastive Learning of Image Representations With Cross-Video Cycle-Consistency, ICCV2021](https://arxiv.org/abs/2105.06463)<br>:house:[project](https://happywu.github.io/cycle_contrast_video/)
+ [Composable Augmentation Encoding for Video Representation Learning, ICCV2021](https://arxiv.org/abs/2104.00616)
+ [Motion-Focused Contrastive Learning of Video Representations, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Motion-Focused_Contrastive_Learning_of_Video_Representations_ICCV_2021_paper.pdf)
+ [Time-Equivariant Contrastive Video Representation Learning, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Jenni_Time-Equivariant_Contrastive_Video_Representation_Learning_ICCV_2021_paper.pdf)
+   [Spatiotemporal Contrastive Video Representation Learning,CVPR21](https://arxiv.org/abs/2008.03800)<br>:star:[code](https://github.com/tensorflow/models/tree/master/official/) 
+  [Removing the Background by Adding the Background: Towards Background Robust Self-Supervised Video Representation Learning,CVPR21](https://arxiv.org/abs/2009.05769) 
+  [VideoMoCo: Contrastive Video Representation Learning with
+Temporally Adversarial Examples,CVPR21](https://openaccess.thecvf.com/content/CVPR2021/papers/Pan_VideoMoCo_Contrastive_Video_Representation_Learning_With_Temporally_Adversarial_Examples_CVPR_2021_paper.pdf) 
 
 <a name="5"/>
 
@@ -95,7 +102,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 [Weakly Supervised Contrastive Learning, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Weakly_Supervised_Contrastive_Learning_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
 
 [Weakly Supervised Representation Learning with Coarse Labels, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_Weakly_Supervised_Representation_Learning_With_Coarse_Labels_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
-
+[Semi-Supervised Action Recognition With Temporal Contrastive Learning](https://arxiv.org/abs/2102.02751)<br>:star:[code](https://github.com/CVIR/TCL)
 
 <a name="6"/>
 
