@@ -44,8 +44,8 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 ## 2.Domain Generalization
 * [Confidence Calibration for Domain Generalization under Covariate Shift, ICCV2021](https://arxiv.org/abs/2104.00742) 
 * [Domain Generalization via Gradient Surgery](https://arxiv.org/abs/2108.01621)<br>:star:[code](https://github.com/lucasmansilla/DGvGS)
-  * Motivation: Multi-task learning has gradients conflict issues; This paper hypothesizes that the gradients conflict also exsits from tasks to domains.
-  * Method: update CNN by harmonizing inter-domain gradients helps to create more robust image classifiers. 判断不同source的gradients的sign是否一致。如果一致，就keep，然后average;如果不一致，可以zero or assign a random value to them. 
+  * Motivation: Multi-task learning has gradients conflict issues; This paper hypothesizes that the gradients conflict also exsits in domains.
+  * Method: update CNN by harmonizing inter-domain gradients. 判断不同source的gradients的sign是否一致。如果一致，就keep，然后average;如果不一致，可以zero or assign a random value to them. 
   * **Comments**不同domains or tasks可能会有gradients conflict这个角度很有趣。可以拓展到few-shots或者 有很多loss的时候，怎么确保彼此是否confilct.
 
 
