@@ -72,7 +72,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 * [Self-supervised Motion Learning from Static Images, CVPR2021](https://arxiv.org/pdf/2104.00240.pdf)
 
 * [Joint Contrastive Learning with Infinite Possibilities, NIPS2020](https://arxiv.org/pdf/2009.14776.pdf)
-    * Extension for Moco where only single positive key is used while JCL pushes the num of positives to infinity and minimizes the upper bound of loss. E(log(X))<= log E(X)
+    * Extension for Moco: pushes the num of positives to infinity and minimizes the upper bound of loss. E(log(X))<= log E(X)
     * Key is to estimate the Gaussian distribution of positive keys N(mu, sigma)
     * **Comments**: 类似 Semantic Aug，只是loss 从CE 换成了Contrastive Loss. 
 
