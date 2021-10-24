@@ -68,6 +68,10 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 
 * [Solving Inefficiency of Self-supervised Representation Learning, ICCV2021](https://arxiv.org/pdf/2104.08760.pdf) [code](https://github.com/wanggrun/triplet)
 
+* :star:[Understanding Self-Supervised Learning Dynamics without Contrastive Pairs,ICML2021](http://proceedings.mlr.press/v139/tian21a/tian21a.pdf)
+* :star:[toward Understanding the Feature Learning Process of Self-supervised
+Contrastive Learning,ICML2021](http://proceedings.mlr.press/v139/wen21c/wen21c.pdf)
+
 
 * [Self-supervised Motion Learning from Static Images, CVPR2021](https://arxiv.org/pdf/2104.00240.pdf)
 
