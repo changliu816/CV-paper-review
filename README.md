@@ -17,7 +17,9 @@
 
 ## 1.Domain Adaptation
 
-[On Generating Transferable Targeted Perturbations, ICCV2021](https://arxiv.org/pdf/2103.14641.pdf)<br>:open_mouth
+[On Generating Transferable Targeted Perturbations, ICCV2021](https://arxiv.org/pdf/2103.14641.pdf)
+
+[Adversarial Unsupervised Domain Adaptation with Conditional and Label Shift: Infer, Align and Iterate, ICCV2021](https://arxiv.org/abs/2107.13469)
 
 
 [SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation, ICCV2021](https://arxiv.org/abs/2012.11460) 
@@ -48,6 +50,18 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="3"/>
 
 ## 3.Image Self-supervised Learning
+[A Broad Study on the Transferability of Visual Representations With Contrastive Learning](https://arxiv.org/abs/2103.13517)<br>:star:[code](https://github.com/asrafulashiq/transfer_broad)
+[With a Little Help From My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations](https://arxiv.org/abs/2104.14548)
+[On Feature Decorrelation in Self-Supervised Learning, ICCV2021](https://arxiv.org/abs/2105.00470) 
+
+[Improving Contrastive Learning by Visualizing Feature Transformation](https://arxiv.org/abs/2108.02982)<br>:open_mouth:oral:star:[code](https://github.com/DTennant/CL-Visualizing-Feature-Transformation)
+
+[ISD: Self-Supervised Learning by Iterative Similarity Distillation, ICCV2021](https://arxiv.org/pdf/2012.09259.pdf) [code](https://github.com/UMBCvision/ISD)
+
+[Switchable K-class Hyperplanes for Noise-Robust Representation Learning, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Switchable_K-Class_Hyperplanes_for_Noise-Robust_Representation_Learning_ICCV_2021_paper.pdf) [code](https://github.com/liubx07/SKH.git)
+
+[Solving Inefficiency of Self-supervised Representation Learning, ICCV2021](https://arxiv.org/pdf/2104.08760.pdf) [code](https://github.com/wanggrun/triplet)
+
 
 [Self-supervised Motion Learning from Static Images, CVPR2021](https://arxiv.org/pdf/2104.00240.pdf)
 
@@ -65,15 +79,20 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="4"/>
 
 ## 4.Video Self-supervised Learning
+[Contrast and Order Representations for Video Self-Supervised Learning, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Hu_Contrast_and_Order_Representations_for_Video_Self-Supervised_Learning_ICCV_2021_paper.pdf)
+[Contrastive Learning of Image Representations With Cross-Video Cycle-Consistency](https://arxiv.org/abs/2105.06463)<br>:house:[project](https://happywu.github.io/cycle_contrast_video/)
+
 
 
 <a name="5"/>
 
 ## 5.Semi-supervised Learning
+  * [Trash to Treasure: Harvesting OOD Data with Cross-Modal Matching for Open-Set Semi-Supervised Learning](https://arxiv.org/abs/2108.05617)
 
+  * [Semi-Supervised Active Learning for Semi-Supervised Models: Exploit Adversarial Examples With Graph-Based Virtual Labels](https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Semi-Supervised_Active_Learning_for_Semi-Supervised_Models_Exploit_Adversarial_Examples_With_ICCV_2021_paper.pdf)
+  * [CoMatch: Semi-Supervised Learning With Contrastive Graph Regularization](https://arxiv.org/abs/2011.11183)<br>:star:[code](https://github.com/salesforce/CoMatch)
+  * 
 [Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples, ICCV2021](https://arxiv.org/pdf/2104.13963.pdf) [code](https://github.com/facebookresearch/suncet)
-* 
-
 
 [Weakly Supervised Contrastive Learning, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Weakly_Supervised_Contrastive_Learning_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
 
@@ -113,6 +132,9 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
  <a name="10"/>
  
  ## 10.Metric Learning
+* [Towards Interpretable Deep Metric Learning with Structural Matching](https://arxiv.org/abs/2108.05889)<br>:star:[code](https://github.com/wl-zhao/DIML)
+* [Deep Relational Metric Learning](https://arxiv.org/abs/2108.10026)<br>:star:[code](https://github.com/zbr17/DRML)
+* [LoOp: Looking for Optimal Hard Negative Embeddings for Deep Metric Learning](https://arxiv.org/abs/2108.09335)<br>:star:[code](https://github.com/puneesh00/LoOp)
 
 
 <a name="11"/>
