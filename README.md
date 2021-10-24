@@ -152,6 +152,10 @@ Temporally Adversarial Examples,CVPR21](https://openaccess.thecvf.com/content/CV
 
 ## 11.Adversarial Learning
 * [TRANSFERABLE PERTURBATIONS OF DEEP FEATURE DISTRIBUTIONS, ICLR2020](https://arxiv.org/pdf/2004.12519.pdf)
+  * Motivation:当用混淆class prediction作为white-box model的criterion时，遇到class不一致的blackbox model, adv examples很难transfer
+  * Method: 用intermidiate feature 后面跟一个auxillary classifier作为criterion，让adv example混淆它。这样transfer效果更好。加大混淆力度：model误以为是其他class，model prediction原理src class； 生成的adv feature与orgional feature拉远。
+ 
+  
 * [TOWARDS FEATURE SPACE ADVERSARIAL ATTACK, AAAI2021](https://arxiv.org/pdf/2004.12385.pdf)
 * [Feature Space Perturbations Yield More Transferable Adversarial Examples, cvpr2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Inkawhich_Feature_Space_Perturbations_Yield_More_Transferable_Adversarial_Examples_CVPR_2019_paper.pdf)
 
