@@ -151,6 +151,12 @@ Temporally Adversarial Examples,CVPR21](https://openaccess.thecvf.com/content/CV
 <a name="11"/>
 
 ## 11.Adversarial Learning
+* [TRANSFERABLE PERTURBATIONS OF DEEP FEATURE DISTRIBUTIONS, ICLR2020](https://arxiv.org/pdf/2004.12519.pdf)
+* [TOWARDS FEATURE SPACE ADVERSARIAL ATTACK, AAAI2021](https://arxiv.org/pdf/2004.12385.pdf)
+* [Feature Space Perturbations Yield More Transferable Adversarial Examples, cvpr2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Inkawhich_Feature_Space_Perturbations_Yield_More_Transferable_Adversarial_Examples_CVPR_2019_paper.pdf)
+
+
+
 
 <a name="12"/>
 
