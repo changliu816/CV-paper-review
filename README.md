@@ -93,7 +93,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
   *  [Spatiotemporal Contrastive Video Representation Learning,CVPR21](https://arxiv.org/abs/2008.03800)<br>:star:[code](https://github.com/tensorflow/models/tree/master/official/) 
  *  [Removing the Background by Adding the Background: Towards Background Robust Self-Supervised Video Representation Learning,CVPR21](https://arxiv.org/abs/2009.05769) 
  *  [VideoMoCo: Contrastive Video Representation Learning withTemporally Adversarial Examples,CVPR21](https://openaccess.thecvf.com/content/CVPR2021/papers/Pan_VideoMoCo_Contrastive_Video_Representation_Learning_With_Temporally_Adversarial_Examples_CVPR_2021_paper.pdf) 
-   ** Two improvements upon Moco: 1) generate temporal adversarial example as positives. 2) temporal decay to reduce the contributions from old keys.  
+       ** Two improvements upon Moco: 1) generate temporal adversarial example as positives. 2) temporal decay to reduce the contributions from old keys.  
 
 <a name="5"/>
 
