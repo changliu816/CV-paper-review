@@ -43,7 +43,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 
 ## 2.Domain Generalization
 * [Confidence Calibration for Domain Generalization under Covariate Shift, ICCV2021](https://arxiv.org/abs/2104.00742) 
-* [Domain Generalization via Gradient Surgery](https://arxiv.org/abs/2108.01621)<br>:star:[code](https://github.com/lucasmansilla/DGvGS)
+* [Domain Generalization via Gradient Surgery](https://arxiv.org/abs/2108.01621)star:[code](https://github.com/lucasmansilla/DGvGS)
 
 <a name="3"/>
 
