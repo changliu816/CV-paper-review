@@ -10,11 +10,18 @@
  e.g  * [SOE-Net: A Self-Attention and Orientation Encoding Network for Point Cloud Based Place Recognition](https://openaccess.thecvf.com/content/CVPR2021/papers/Xia_SOE-Net_A_Self-Attention_and_Orientation_Encoding_Network_for_Point_Cloud_CVPR_2021_paper.pdf)<br>:open_mouth:oral:star:[code](https://github.com/Yan-Xia/SOE-Net)
 
 # Todo
-- Read CVPR21/ICCV21 DA and SSL papers
+- Read ICCV21 DA and SSL papers  -写论文的表格和图可以模仿FB的style
+- 
 
 <a name="1"/>
 
 ## 1.Domain Adaptation
+
+<br>😮[On Generating Transferable Targeted Perturbations, ICCV2021]https://arxiv.org/pdf/2103.14641.pdf) 
+
+
+[SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation, ICCV2021](https://arxiv.org/abs/2012.11460) 
+
 
 [Gradient Distribution Alignment Certificates Better Adversarial Domain
 Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Gradient_Distribution_Alignment_Certificates_Better_Adversarial_Domain_Adaptation_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
@@ -35,6 +42,7 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="2"/>
 
 ## 2.Domain Generalization
+[Confidence Calibration for Domain Generalization under Covariate Shift, ICCV2021](https://arxiv.org/abs/2104.00742) 
 
 
 <a name="3"/>
@@ -62,10 +70,14 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="5"/>
 
 ## 5.Semi-supervised Learning
--[Weakly Supervised Contrastive Learning, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Weakly_Supervised_Contrastive_Learning_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
 
--[Weakly Supervised Representation Learning with Coarse Labels, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_Weakly_Supervised_Representation_Learning_With_Coarse_Labels_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
+[Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples, ICCV2021](https://arxiv.org/pdf/2104.13963.pdf) [code](https://github.com/facebookresearch/suncet)
+* 
 
+
+[Weakly Supervised Contrastive Learning, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Weakly_Supervised_Contrastive_Learning_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
+
+[Weakly Supervised Representation Learning with Coarse Labels, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_Weakly_Supervised_Representation_Learning_With_Coarse_Labels_ICCV_2021_paper.pdf) [code](https://github.com/theNded/SGP)
 
 
 <a name="6"/>
