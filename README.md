@@ -36,6 +36,9 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 * [Dynamic Transfer for Multi-Source Domain Adaptation, CVPR2021](https://arxiv.org/pdf/2103.10583.pdf) 
 
 
+* :star:[Transferable Semantic Augmentation for Domain Adaptation, CVPR2021](https://arxiv.org/pdf/2103.12562.pdf) [[code]](https://github.com/BIT-DA/TSA)
+
+
 
 
 
@@ -136,6 +139,9 @@ Contrastive Learning,ICML2021](http://proceedings.mlr.press/v139/wen21c/wen21c.p
     * ConvNets trained on ImageNet are biased towards textures instead of shapes. The moments (mean, variance) contains rich structure information and should not be discarded by normalization. 
     * Swap the shape (or style) information of two images by swapping the moments after 1st layers. 
     * Feature-level augmentation
+
+* :star:[Implicit Semantic Data Augmentation for Deep Networks, NIPS2019](https://papers.nips.cc/paper/2019/file/15f99f2165aa8c86c9dface16fefd281-Paper.pdf)
+
 
 
 <a name="9"/>
