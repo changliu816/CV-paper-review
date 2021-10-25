@@ -78,7 +78,7 @@ Contrastive Learning,ICML2021](http://proceedings.mlr.press/v139/wen21c/wen21c.p
 
 * [Self-supervised Motion Learning from Static Images, CVPR2021](https://arxiv.org/pdf/2104.00240.pdf)
 
-* [Joint Contrastive Learning with Infinite Possibilities, NIPS2020](https://arxiv.org/pdf/2009.14776.pdf)
+* [Joint Contrastive Learning with Infinite Possibilities, NIPS2020](https://arxiv.org/pdf/2009.14776.pdf) [[code]](https://github.com/caiqi/Joint-Contrastive-Learning)
     * Extension for Moco: pushes the num of positives to infinity and minimizes the upper bound of loss. E(log(X))<= log E(X)
     * Key is to estimate the Gaussian distribution of positive keys N(mu, sigma)
     * **Comments**: 类似 Semantic Aug，只是loss 从CE 换成了Contrastive Loss. 
