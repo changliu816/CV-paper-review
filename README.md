@@ -140,7 +140,7 @@ Contrastive Learning,ICML2021](http://proceedings.mlr.press/v139/wen21c/wen21c.p
     * Swap the shape (or style) information of two images by swapping the moments after 1st layers. 
     * Feature-level augmentation
 
-* :star:[Implicit Semantic Data Augmentation for Deep Networks, NIPS2019](https://papers.nips.cc/paper/2019/file/15f99f2165aa8c86c9dface16fefd281-Paper.pdf)
+* :star:[Implicit Semantic Data Augmentation for Deep Networks, NIPS2019](https://papers.nips.cc/paper/2019/file/15f99f2165aa8c86c9dface16fefd281-Paper.pdf) [[code]](https://github.com/blackfeather-wang/ISDA-for-Deep-Networks)
 
 
 
