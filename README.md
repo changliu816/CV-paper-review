@@ -8,8 +8,11 @@
 |[13.Transformer/self-attention](#13)|[0.Classification/Fine-grained](#0)|
 
 
-# Todo
-- Read ICCV21 DA and SSL papers  -写论文的表格和图可以模仿FB的style
+# Survey
+* [Transfer learning](https://github.com/yuntaodu/Transfer-learning-materials)
+* [Self-superivsed learning](https://github.com/jason718/awesome-self-supervised-learnings) 
+* [Domain generalization](https://github.com/amber0309/Domain-generalization)
+* [semi-supervised learning](https://github.com/yassouali/awesome-semi-supervised-learning)
 
 <a name="1"/>
 
