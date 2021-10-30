@@ -109,7 +109,9 @@ Contrastive Learning,ICML2021](http://proceedings.mlr.press/v139/wen21c/wen21c.p
 <a name="5"/>
 
 ## 5.Semi-supervised Learning
-  * [Trash to Treasure: Harvesting OOD Data with Cross-Modal Matching for Open-Set Semi-Supervised Learning](https://arxiv.org/abs/2108.05617)
+*[FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling, NIPS2021](https://arxiv.org/pdf/2110.08263.pdf)
+  
+ * [Trash to Treasure: Harvesting OOD Data with Cross-Modal Matching for Open-Set Semi-Supervised Learning](https://arxiv.org/abs/2108.05617)
 
   * [Semi-Supervised Active Learning for Semi-Supervised Models: Exploit Adversarial Examples With Graph-Based Virtual Labels](https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Semi-Supervised_Active_Learning_for_Semi-Supervised_Models_Exploit_Adversarial_Examples_With_ICCV_2021_paper.pdf)
   * [CoMatch: Semi-Supervised Learning With Contrastive Graph Regularization](https://arxiv.org/abs/2011.11183)<br>:star:[code](https://github.com/salesforce/CoMatch)
