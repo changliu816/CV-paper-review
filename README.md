@@ -93,6 +93,11 @@ Contrastive Learning,ICML2021](http://proceedings.mlr.press/v139/wen21c/wen21c.p
 * [Adversarial Self-Supervised Contrastive Learning, NIPS2020](https://arxiv.org/pdf/2006.07589.pdf) [code](https://github.com/Kim-Minseon/RoCL)
     * **Comments:和上面那篇基本一样，但是citation更高
 
+* [Towards Domain-Agnostic Contrastive Learning, ICML2021](http://proceedings.mlr.press/v139/verma21a/verma21a.pdf)
+
+* [i-MIX: A DOMAIN-AGNOSTIC STRATEGY FOR CONTRASTIVE REPRESENTATION LEARNING, ICLR2021](https://openreview.net/pdf?id=T6AxtOaWydQ) [[code]](https://github.com/kibok90/imix)
+
+
 <a name="4"/>
 
 ## 4.Video Self-supervised Learning
