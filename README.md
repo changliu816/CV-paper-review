@@ -61,6 +61,9 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="3"/>
 
 ## 3.Image Self-supervised Learning
+* :star:[Masked Autoencoders Are Scalable Vision Learners,arxiv](https://arxiv.org/pdf/2111.06377.pdf)[[code]](https://github.com/UMBCvision/MSF)
+
+
 * :star:[Mean Shift for Self-Supervised Learning,ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Koohpayegani_Mean_Shift_for_Self-Supervised_Learning_ICCV_2021_paper.pdf)[[code]](https://github.com/UMBCvision/MSF)
 
 * [A Broad Study on the Transferability of Visual Representations With Contrastive Learning](https://arxiv.org/abs/2103.13517)<br>:star:[code](https://github.com/asrafulashiq/transfer_broad)
