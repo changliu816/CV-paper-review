@@ -10,7 +10,7 @@
 
 # Survey
 * [Transfer learning](https://github.com/yuntaodu/Transfer-learning-materials)
-* [Self-superivsed learning](https://github.com/jason718/awesome-self-supervised-learnings) 
+* [Self-superivsed learning](https://github.com/jason718/awesome-self-supervised-learning) 
 * [Domain generalization](https://github.com/amber0309/Domain-generalization)
 * [semi-supervised learning](https://github.com/yassouali/awesome-semi-supervised-learning)
 
