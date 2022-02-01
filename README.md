@@ -17,6 +17,8 @@
 <a name="1"/>
 
 ## 1.Domain Adaptation
+* [Active Domain Adaptation via Clustering UNcertainty-weighted Embeddings, ICCV2021](https://arxiv.org/pdf/2010.08666.pdf) [[code]](https://github.com/virajprabhu/CLUE)
+
 * [Code: Transfer learning library from Tsinghua Pytorch](https://github.com/thuml/Transfer-Learning-Library)
 
 * [On Generating Transferable Targeted Perturbations, ICCV2021](https://arxiv.org/pdf/2103.14641.pdf) [[code]](https://github.com/Muzammal-Naseer/TTP)
@@ -49,6 +51,9 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="2"/>
 
 ## 2.Domain Generalization
+* [Quantifying and Improving Transferability in Domain Generalization, NIPS2021](https://arxiv.org/pdf/2106.03632.pdf) [[code]](https://github.com/virajprabhu/CLUE)
+
+
 * [Confidence Calibration for Domain Generalization under Covariate Shift, ICCV2021](https://arxiv.org/abs/2104.00742) 
 * :star:[Domain Generalization via Gradient Surgery](https://arxiv.org/abs/2108.01621)[[code]](https://github.com/lucasmansilla/DGvGS)
   * Motivation: Multi-task learning has gradients conflict issues; This paper hypothesizes that the gradients conflict also exsits in domains.
