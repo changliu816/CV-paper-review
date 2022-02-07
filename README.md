@@ -18,7 +18,7 @@
 
 ## 1.Domain Adaptation
 * [χ-MODEL: IMPROVING DATA EFFICIENCY IN DEEP LEARNING WITH A MINIMAX MODEL, ICLR2022](https://arxiv.org/pdf/2110.04572.pdf) 
-* 
+
 * [Self-Tuning for Data-Efficient Deep Learning, ICML2021](https://arxiv.org/pdf/2102.12903.pdf) [[code]](https://github.com/virajprabhu/CLUE)
 
 * [Active Domain Adaptation via Clustering UNcertainty-weighted Embeddings, ICCV2021](https://arxiv.org/pdf/2010.08666.pdf) [[code]](https://github.com/virajprabhu/CLUE)
