@@ -55,6 +55,12 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="2"/>
 
 ## 2.Domain Generalization
+
+
+* [VICREG: VARIANCE-INVARIANCE-COVARIANCE REGULARIZATION FOR SELF-SUPERVISED LEARNING, ICLR2022](https://arxiv.org/pdf/2105.04906.pdf) 
+ * 用
+
+
 * [Quantifying and Improving Transferability in Domain Generalization, NIPS2021](https://arxiv.org/pdf/2106.03632.pdf) [[code]](https://github.com/virajprabhu/CLUE)
 
 
