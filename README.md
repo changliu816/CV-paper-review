@@ -76,7 +76,13 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="3"/>
 
 ## 3.Image Self-supervised Learning
+
+
+* :star:[THE CLOSE RELATIONSHIP BETWEEN CONTRASTIVE LEARNING AND META-LEARNING,ICLR2022](https://openreview.net/pdf?id=gKLAAfiytI)[[code]](https://github.com/UMBCvision/MSF)
+   * 两种形式： 一个是把large rotation/mix其他一些augmentation 当成新的sample instance class, 然后放入contrastive; 或者加入rotation prediction loss. 后者效果显著。
+
 * :star:[EQUIVARIANT SELF-SUPERVISED LEARNING: ENCOURAGING EQUIVARIANCE IN REPRESENTATIONS,ICLR2022](https://openreview.net/pdf?id=gKLAAfiytI)[[code]](https://github.com/UMBCvision/MSF)
+    * 解释了，一些augmentation 适合learn invariance，做contrastive learning; 一些augmnetation, e.g rotation 适合learnequivariance, 做prediction loss; 两者是complemantary,结合起来效果更好。
 
 
 * :star:[Masked Autoencoders Are Scalable Vision Learners,arxiv](https://arxiv.org/pdf/2111.06377.pdf)[[code]](https://github.com/UMBCvision/MSF)
