@@ -141,6 +141,11 @@ Contrastive Learning,ICML2021](http://proceedings.mlr.press/v139/wen21c/wen21c.p
 <a name="5"/>
 
 ## 5.Semi-supervised Learning
+
+* [ON NON-RANDOM MISSING LABELS IN SEMI-SUPERVISED LEARNING, ICLR2022](https://openreview.net/pdf?id=6yVvwR9H9Oj)
+  
+  
+  
 * [FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling, NIPS2021](https://arxiv.org/pdf/2110.08263.pdf)
   
  * [Trash to Treasure: Harvesting OOD Data with Cross-Modal Matching for Open-Set Semi-Supervised Learning](https://arxiv.org/abs/2108.05617)
