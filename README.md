@@ -76,6 +76,9 @@ Adaptation, ICCV2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_
 <a name="3"/>
 
 ## 3.Image Self-supervised Learning
+* :star:[EQUIVARIANT SELF-SUPERVISED LEARNING: ENCOURAGING EQUIVARIANCE IN REPRESENTATIONS,ICLR2022](https://openreview.net/pdf?id=gKLAAfiytI)[[code]](https://github.com/UMBCvision/MSF)
+
+
 * :star:[Masked Autoencoders Are Scalable Vision Learners,arxiv](https://arxiv.org/pdf/2111.06377.pdf)[[code]](https://github.com/UMBCvision/MSF)
 
 
